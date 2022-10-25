@@ -79,7 +79,7 @@ nav ul {
   flex: 1 1 40rem;
   justify-content: space-around;
   align-items: center;
-  list-style: none;
+  box-shadow: #131c27;
 }
 nav ul li {
   background: none;
@@ -90,10 +90,10 @@ nav ul li {
 nav ul li a {
   display: block;
   padding: 0 15px;
-
   text-decoration: none;
   line-height: 60px;
   font-size: 20px;
+  color: #fff;
 }
 
 nav ul li a:hover {
@@ -103,6 +103,8 @@ nav ul li a:hover {
 nav ul ul {
   position: absolute;
   top: 60px;
+  background: #fff;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1), 0px 20px 20px rgba(0, 0, 0, 0.2);
   display: none;
 }
 
@@ -111,10 +113,18 @@ nav ul li:hover > ul {
 }
 
 nav ul ul li {
-  width: 150px;
+  width: 200px;
   float: none;
   display: list-item;
   position: relative;
+}
+
+nav ul ul li a {
+  color: #243342;
+}
+
+nav ul ul li a:hover {
+  color: #fff;
 }
 
 nav ul ul ul li {
