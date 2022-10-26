@@ -330,10 +330,10 @@ footer img {
 .footer-wrapper img {
   vertical-align: middle;
 }
-.footer-wrapper ul {
+.footer-wrapper button {
   display: flex;
   list-style: none;
-  flex: 1 1 40rem;
+  /* flex: 1 1 40rem; */
   justify-content: space-around;
   align-items: center;
 }
