@@ -171,7 +171,7 @@ nav ul ul ul li {
   overflow: hidden;
 }
 
-.locations-head {
+/* .locations-head {
   width: 90%;
   margin: auto;
 }
@@ -204,9 +204,45 @@ nav ul ul ul li {
   z-index: -1;
   opacity: 0.5;
   animation: cloudAnimation 4s infinite alternate ease-in-out;
-}
+} */
 
 /* BENEFITS */
+
+/* INTRO */
+
+.intro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  min-height: 90vh;
+  width: 90%;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+.intro h2 {
+  font-size: 8rem;
+  padding-top: 2rem;
+  display: inline-block;
+}
+
+.intro h3 {
+  font-size: 2.5rem;
+  padding: 2rem 0rem;
+}
+
+.intro p {
+  padding-top: 2rem;
+  line-height: 150%;
+}
+
+.intro-text {
+  flex: 1 1 40rem;
+}
+.intro-images {
+  flex: 1 1 40rem;
+}
 
 .benefits-head {
   background: #2c4058;
