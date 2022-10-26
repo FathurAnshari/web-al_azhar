@@ -51,6 +51,11 @@ button {
   transition: background 0.2s ease-in-out;
 }
 
+main {
+  width: 65%;
+  margin: auto;
+}
+
 button:hover {
   background: #2c4058;
 }
@@ -73,7 +78,10 @@ nav {
   align-items: center;
   flex-wrap: wrap;
 }
-
+#logo {
+  flex: 2 1 40rem;
+  font-family: "Pattaya", sans-serif;
+}
 nav ul {
   display: flex;
   flex: 1 1 40rem;
@@ -132,14 +140,8 @@ nav ul ul ul li {
   top: -60px;
 }
 
-#logo {
-  flex: 2 1 40rem;
-  font-family: "Pattaya", sans-serif;
-  font-weight: 400;
-}
-
 .hero {
-  min-height: 90vh;
+  min-height: 60vh;
   background: linear-gradient(rgba(0, 0, 0, 0.7), transparent),
     url("/img/landing-page.jpg");
   background-repeat: no-repeat;
@@ -147,6 +149,8 @@ nav ul ul ul li {
   background-size: cover;
   color: white;
   display: flex;
+  width: 90%;
+  margin: 5rem auto 2rem auto;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -244,12 +248,41 @@ nav ul ul ul li {
   flex: 1 1 40rem;
 }
 
+.dokumentasi {
+  min-height: 60vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), transparent),
+    url("/img/landing-page.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  display: flex;
+  width: 90%;
+  margin: auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.dokumentasi-text {
+  display: flex;
+  align-items: center;
+  min-height: 10vh;
+  width: 90%;
+  justify-content: center;
+  margin: 1rem auto 1rem auto;
+  text-align: center;
+}
+
 .dokumentasi-head {
   background: #2c4058;
   min-height: 10vh;
   padding: 3rem;
   color: white;
   display: flex;
+  width: 90%;
+  margin: auto;
   flex-direction: column;
   justify-content: center;
   align-items: center;
