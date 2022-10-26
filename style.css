@@ -244,9 +244,9 @@ nav ul ul ul li {
   flex: 1 1 40rem;
 }
 
-.benefits-head {
+.dokumentasi-head {
   background: #2c4058;
-  min-height: 30vh;
+  min-height: 10vh;
   padding: 3rem;
   color: white;
   display: flex;
@@ -255,7 +255,7 @@ nav ul ul ul li {
   align-items: center;
   text-align: center;
 }
-.benefits-head h3 {
+.dokumentasi-head h3 {
   font-weight: normal;
 }
 
@@ -360,11 +360,18 @@ footer img {
   flex-wrap: wrap;
 }
 .footer-wrapper h5 {
-  flex: 1 1 40rem;
+  flex: 1 1 10rem;
 }
-
 .footer-wrapper img {
   vertical-align: middle;
+}
+
+.footer-wrapper ul {
+  display: flex;
+  list-style: none;
+  flex: 1 1 40rem;
+  justify-content: space-around;
+  align-items: center;
 }
 .footer-wrapper button {
   display: flex;
