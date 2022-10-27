@@ -21,6 +21,8 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <title>Pondok Pesantren Al-Azhar</title>
   </head>
   <body>
@@ -114,11 +116,18 @@
         <div class="dokumentasi-text">
           <h5>Dokumentasi</h5>
         </div>
-        <section class="dokumentasi-wrapper">
-          <div class="dokumentasi-img">
+        
+          <!-- <div class="dokumentasi-img">
             <img src="/img/landing-page.jpg" />
+          </div> -->
+          <div class="main-carousel" >
+            <div class="cell"><img src="/img/new-york-page.png"></div>
+            <div class="cell"><img src="/img/landing-page.jpg"></div>
+            <div class="cell"><img src="/img/contact-mountain.png"></div>
+            <div class="cell"><img src="/img/cloud.png"></div>
+            <div class="cell"><img src="/img/614d7e91-fdb8-4442-80c7-86e084772cdf.jpg"></div>
           </div>
-        </section>
+        
       </section>
       <section id="alamat">
         <h1 class="dokumentasi-head">
@@ -153,5 +162,16 @@
         </ul>
       </div>
     </footer>
+
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script type="text/javascript">
+      $('.main-carousel').flickity({
+  // options
+  cellAlign: 'left',
+  wrapAround:true,
+  freeScroll:true,
+});
+    </script>
+  </body>
   </body>
 </html>
