@@ -161,6 +161,25 @@ nav ul ul ul li {
   padding: 2rem 4rem 5rem 4rem;
 }
 
+/* Dokumentasi */
+
+.dokumentasi-wrapper {
+  min-height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: 5rem auto 2rem auto;
+  overflow: hidden;
+}
+
+.dokumentasi-img {
+  max-height: 60vh;
+
+  min-width: 100%;
+  min-width: 100%;
+}
+
 /* Locations */
 
 #locations {
