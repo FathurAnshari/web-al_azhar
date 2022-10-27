@@ -21,7 +21,10 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="/style.css" />
-    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flickity@2/dist/flickity.min.css"
+    />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <title>Pondok Pesantren Al-Azhar</title>
   </head>
@@ -116,22 +119,31 @@
         <div class="dokumentasi-text">
           <h5>Dokumentasi</h5>
         </div>
-        
-          <!-- <div class="dokumentasi-img">
+
+        <!-- <div class="dokumentasi-img">
             <img src="/img/landing-page.jpg" />
           </div> -->
-          <div class="main-carousel" >
-            <div class="cell"><img src="/img/new-york-page.png"></div>
-            <div class="cell"><img src="/img/landing-page.jpg"></div>
-            <div class="cell"><img src="/img/contact-mountain.png"></div>
-            <div class="cell"><img src="/img/cloud.png"></div>
-            <div class="cell"><img src="/img/614d7e91-fdb8-4442-80c7-86e084772cdf.jpg"></div>
+        <div class="main-carousel">
+          <div class="cell"><img src="/img/new-york-page.png" /></div>
+          <div class="cell"><img src="/img/landing-page.jpg" /></div>
+          <div class="cell"><img src="/img/contact-mountain.png" /></div>
+          <div class="cell"><img src="/img/cloud.png" /></div>
+          <div class="cell">
+            <img src="/img/614d7e91-fdb8-4442-80c7-86e084772cdf.jpg" />
           </div>
-        
+        </div>
       </section>
       <section id="alamat">
         <h1 class="lokasi">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1981.4932005150638!2d107.38111611744387!3d-6.648606499999992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69067e29142f25%3A0x1c4f160faf16da0f!2sPondok%20Pesantren%20AL%20Azhar%20Plered%20Purwakarta!5e0!3m2!1sen!2sid!4v1666862237973!5m2!1sen!2sid" width="1200" height="420" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1981.4932005150638!2d107.38111611744387!3d-6.648606499999992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69067e29142f25%3A0x1c4f160faf16da0f!2sPondok%20Pesantren%20AL%20Azhar%20Plered%20Purwakarta!5e0!3m2!1sen!2sid!4v1666862237973!5m2!1sen!2sid"
+            width="1200"
+            height="420"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
         </h1>
       </section>
     </main>
@@ -165,13 +177,12 @@
 
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     <script type="text/javascript">
-      $('.main-carousel').flickity({
-  // options
-  cellAlign: 'left',
-  wrapAround:true,
-  freeScroll:true,
-});
+      $(".main-carousel").flickity({
+        // options
+        cellAlign: "left",
+        wrapAround: true,
+        freeScroll: true,
+      });
     </script>
-  </body>
   </body>
 </html>
