@@ -214,16 +214,17 @@ nav button {
 
 /* Locations */
 
-#locations {
-  min-height: 100vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), transparent),
-    url("/img/new-york-page.png");
-  background-position: center;
-  background-size: cover;
+.lokasi {
+  min-height: 10vh;
+  padding: 3rem;
+  color: white;
   display: flex;
+  width: 90%;
+  margin: 5rem auto 7rem auto;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  position: relative;
-  overflow: hidden;
+  text-align: center;
 }
 
 /* .locations-head {
