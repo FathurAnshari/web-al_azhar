@@ -186,25 +186,25 @@ nav button {
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
-  min-height: 90vh;
+  max-height: 90vh;
   width: 90%;
-  margin: auto;
+  margin: 0 auto 0 auto;
   flex-wrap: wrap;
 }
 
 .profil h2 {
   font-size: 8rem;
-  padding-top: 2rem;
+  /* padding-top: 2rem; */
   display: inline-block;
 }
 
 .profil h3 {
   font-size: 2.5rem;
-  padding: 2rem 0rem;
+  /* padding: 2rem 0rem; */
 }
 
 .profil p {
-  padding-top: 2rem;
+  /* padding-top: 2rem; */
   line-height: 150%;
 }
 
@@ -225,17 +225,27 @@ nav button {
   text-align: center;
 }
 
-/* alamat */
+/* Locations */
+
 .lokasi {
   min-height: 10vh;
-  padding: 3rem;
+  padding: 1rem 3rem 3rem 3rem;
   color: white;
   display: flex;
-  width: 100%;
-  margin: 5rem auto 7rem auto;
+  width: 90%;
+  margin: auto auto 7rem auto;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
+}
+.alamat-text {
+  display: flex;
+  align-items: center;
+  min-height: 10vh;
+  width: 90%;
+  justify-content: center;
+  margin: 10rem auto 0 auto;
   text-align: center;
 }
 
