@@ -226,14 +226,23 @@ nav button {
 
 .lokasi {
   min-height: 10vh;
-  padding: 3rem;
+  padding: 1rem 3rem 3rem 3rem;
   color: white;
   display: flex;
   width: 90%;
-  margin: 5rem auto 7rem auto;
+  margin: auto auto 7rem auto;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
+}
+.alamat-text {
+  display: flex;
+  align-items: center;
+  min-height: 10vh;
+  width: 90%;
+  justify-content: center;
+  margin: 10rem auto 0 auto;
   text-align: center;
 }
 
