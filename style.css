@@ -78,6 +78,7 @@ nav {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  padding: 0.5rem 0 0.5rem 0;
 }
 #logo {
   flex: 2 1 40rem;
@@ -86,6 +87,7 @@ nav {
 #logo img {
   vertical-align: middle;
   margin-right: 1rem;
+  padding: 0.5rem 0 0.5rem 0;
 }
 
 #logo a {

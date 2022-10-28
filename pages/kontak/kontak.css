@@ -42,7 +42,7 @@ a {
   text-decoration: none;
 }
 button {
-  padding: 2rem 6rem;
+  /* padding: 2rem 6rem; */
   background: #4c6e97;
   border: none;
   color: white;
@@ -78,11 +78,22 @@ nav {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  padding: 0.5rem 0 0.5rem 0;
 }
 #logo {
   flex: 2 1 40rem;
-  font-family: "Pattaya", sans-serif;
 }
+
+#logo img {
+  vertical-align: middle;
+  margin-right: 1rem;
+  padding: 0.5rem 0 0.5rem 0;
+}
+
+#logo a {
+  font-size: 2.5rem;
+}
+
 nav ul {
   display: flex;
   flex: 1 1 40rem;
@@ -143,8 +154,8 @@ nav ul ul ul li {
 
 nav button {
   margin-left: 5rem;
-  padding: 1rem 2rem;
   background: #4c6e97;
+  padding: 1rem 2rem;
   border: none;
   color: white;
   font-size: 1.8rem;
@@ -155,8 +166,7 @@ nav button {
 
 .hero {
   min-height: 60vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.7), transparent),
-    url("/img/landing-page.jpg");
+  background: url("/img/bacground-home.jpg"); /* linear-gradient(rgba(0, 0, 0, 0.7), transparent), */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -188,61 +198,44 @@ nav button {
 
 .dokumentasi-img {
   max-height: 60vh;
+  min-width: 100%;
+  min-width: 100%;
+}
 
-  min-width: 100%;
-  min-width: 100%;
+.cell {
+  width: 33%;
+  height: 35rem;
+  margin: 0 1.5rem;
+  overflow: hidden;
+  border-radius: 0.8rem;
+}
+
+.cell img {
+  width: 100%;
+  height: 35rem;
+  object-fit: cover;
+}
+
+.flickity-prev-next-button {
+  width: 100px;
+  height: 100px;
+  background: transparent;
 }
 
 /* Locations */
 
-#locations {
-  min-height: 100vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), transparent),
-    url("/img/new-york-page.png");
-  background-position: center;
-  background-size: cover;
+.lokasi {
+  min-height: 10vh;
+  padding: 3rem;
+  color: white;
   display: flex;
-  align-items: center;
-  position: relative;
-  overflow: hidden;
-}
-
-/* .locations-head {
   width: 90%;
-  margin: auto;
+  margin: 5rem auto 7rem auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
-
-.locations-head h2 {
-  font-size: 3.6rem;
-  padding: 1rem 0rem;
-  text-decoration: underline;
-  text-decoration-thickness: 0.5rem;
-}
-.locations-head h3 {
-  font-size: 2.8rem;
-  padding: 4rem 0rem;
-  background: linear-gradient(#131c27, #663b34);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.cloud {
-  width: 55%;
-  position: absolute;
-  top: 0%;
-  right: 0%;
-}
-.moving-cloud-1 {
-  animation: cloudAnimation 3s infinite alternate ease-in-out;
-}
-.moving-cloud-2 {
-  top: 10%;
-  z-index: -1;
-  opacity: 0.5;
-  animation: cloudAnimation 4s infinite alternate ease-in-out;
-} */
-
-/* BENEFITS */
 
 /* INTRO */
 
@@ -417,7 +410,8 @@ footer img {
 
 .footer-wrapper {
   display: flex;
-  padding: 2rem;
+  background-color: #131c27;
+  padding: 3.7rem 3rem 4rem 3rem;
   align-items: center;
   min-height: 10vh;
   width: 90%;
@@ -425,6 +419,7 @@ footer img {
   flex-wrap: wrap;
 }
 .footer-wrapper h5 {
+  color: #fff;
   flex: 1 1 10rem;
 }
 .footer-wrapper img {
@@ -439,11 +434,15 @@ footer img {
   align-items: center;
 }
 .footer-wrapper button {
-  display: flex;
-  list-style: none;
-  /* flex: 1 1 40rem; */
-  justify-content: space-around;
-  align-items: center;
+  margin-left: 5rem;
+  background: #4c6e97;
+  padding: 1.5rem 5rem;
+  border: none;
+  color: white;
+  font-size: 1.8rem;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out;
+  border-radius: 1rem;
 }
 
 button:focus {
