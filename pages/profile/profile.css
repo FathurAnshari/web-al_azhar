@@ -227,6 +227,9 @@ nav button {
 }
 .profil-images {
   flex: 1 1 40rem;
+  width: 100%; /* or any custom size */
+  height: 100%;
+  object-fit: contain;
 }
 
 .profil-title {
