@@ -174,6 +174,140 @@ nav button {
   transition: background 0.2s ease-in-out;
   border-radius: 1rem;
 }
+/* GALLERY */
+
+.gallery-guru {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 10rem 0rem 15rem 0rem;
+  grid-auto-flow: dense;
+}
+
+.gallery-guru .box {
+  background-color: #ccc;
+  background-size: cover;
+}
+
+.box::after {
+  content: "";
+  display: block;
+  padding-top: calc(100% / (16 / 16));
+}
+
+.box:nth-child(1) {
+  background-image: url("/img/976309ed-1d64-4d60-934a-0c0f708188f1-removebg-preview.png");
+}
+.box:nth-child(2) {
+  background-image: url("/img/614d7e91-fdb8-4442-80c7-86e084772cdf.jpg");
+}
+.box:nth-child(3) {
+  background-image: url("/img/landing-page.jpg");
+}
+.box:nth-child(4) {
+  background-image: url("/img/contact-mountain.png");
+}
+.box:nth-child(5) {
+  background-image: url("/img/new-york-page.png");
+}
+.box:nth-child(6) {
+  background-image: url("/img/pimpinan.jpg");
+}
+.box:nth-child(7) {
+  background-image: url("/img/pimpinan1.jpg");
+}
+.box:nth-child(8) {
+  background-image: url("/img/struktur.jpg");
+}
+.box:nth-child(8) {
+  background-image: url("/img/contact-mountain.png");
+}
+.box:nth-child(9) {
+  background-image: url("/img/contact-mountain.png");
+}
+.box:nth-child(10) {
+  background-image: url("/img/contact-mountain.png");
+}
+.box:nth-child(11) {
+  background-image: url("/img/contact-mountain.png");
+}
+.box:nth-child(12) {
+  background-image: url("/img/contact-mountain.png");
+}
+
+.gallery-siswa {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 2rem 0rem;
+  grid-auto-flow: dense;
+}
+
+.gallery-siswa .box-siswa {
+  background-color: #ccc;
+  background-size: cover;
+}
+
+.box-siswa::after {
+  content: "";
+  display: block;
+  padding-top: calc(100% / (16 / 16));
+}
+
+.box-siswa:nth-child(1) {
+  background-image: url("/img/976309ed-1d64-4d60-934a-0c0f708188f1-removebg-preview.png");
+}
+.box-siswa:nth-child(2) {
+  background-image: url("/img/614d7e91-fdb8-4442-80c7-86e084772cdf.jpg");
+}
+.box-siswa:nth-child(3) {
+  background-image: url("/img/landing-page.jpg");
+}
+.box-siswa:nth-child(4) {
+  background-image: url("/img/contact-mountain.png");
+}
+.box-siswa:nth-child(5) {
+  background-image: url("/img/new-york-page.png");
+}
+.box-siswa:nth-child(6) {
+  background-image: url("/img/pimpinan.jpg");
+}
+.box-siswa:nth-child(7) {
+  background-image: url("/img/pimpinan1.jpg");
+}
+.box-siswa:nth-child(8) {
+  background-image: url("/img/struktur.jpg");
+}
+.box-siswa:nth-child(8) {
+  background-image: url("/img/contact-mountain.png");
+}
+.box-siswa:nth-child(9) {
+  background-image: url("/img/contact-mountain.png");
+}
+.box-siswa:nth-child(10) {
+  background-image: url("/img/contact-mountain.png");
+}
+.box-siswa:nth-child(11) {
+  background-image: url("/img/contact-mountain.png");
+}
+.box-siswa:nth-child(12) {
+  background-image: url("/img/contact-mountain.png");
+}
+
+/* TITLE */
+.title-text {
+  position: relative;
+  padding: 54px 0 27px;
+  background-color: #131c27;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.title-text h1 {
+  color: #fff;
+  padding-left: 3rem;
+}
 
 .hero {
   min-height: 60vh;
