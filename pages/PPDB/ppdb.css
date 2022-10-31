@@ -42,7 +42,7 @@ a {
   text-decoration: none;
 }
 button {
-  /* padding: 2rem 6rem; */
+  padding: 1rem 3rem;
   background: #4c6e97;
   border: none;
   color: white;
@@ -236,11 +236,7 @@ nav button {
 }
 
 .btn {
-  display: flex;
-  align-items: center;
-  justify-content: end;
   margin-left: auto;
-  background: #4c6e97;
   padding: 1rem 2rem;
   border: none;
   color: white;
