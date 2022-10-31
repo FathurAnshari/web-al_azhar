@@ -68,7 +68,7 @@ button:hover {
   color: white;
   top: 0px;
   position: sticky;
-  z-index: 3;
+  z-index: 4;
 }
 nav {
   min-height: 10vh;
@@ -174,9 +174,78 @@ nav button {
   background: #4c6e97;
 }
 
-.hero {
+/* CAROUSEL */
+.carousel-wrapper {
   min-height: 60vh;
-  background: url("/img/bacground-home.jpg"); /* linear-gradient(rgba(0, 0, 0, 0.7), transparent), */
+  position: relative;
+  width: 90%;
+  display: block;
+  margin: 5rem auto 2rem auto;
+  /* border: 2px solid black; */
+}
+
+.carousel-item {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 25px 50px;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 12px;
+}
+.arrow-prev {
+  left: 30px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%) rotate(135deg);
+}
+.arrow-next {
+  right: 30px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%) rotate(-45deg);
+}
+
+[id^="item"] {
+  display: none;
+}
+.item-1 {
+  z-index: 2;
+  opacity: 1;
+  background: url("/img/landing-page.jpg");
+  background-size: cover;
+}
+.item-2 {
+  background: url("/img/bacground-home.jpg");
+  background-size: cover;
+}
+.item-3 {
+  background: url("/img/new-york-page.png");
+  background-size: cover;
+}
+
+*:target ~ .item-1 {
+  opacity: 0;
+}
+#item-1:target ~ .item-1 {
+  opacity: 1;
+}
+#item-2:target ~ .item-2,
+#item-3:target ~ .item-3 {
+  z-index: 3;
+  opacity: 1;
+}
+
+/* .hero {
+  min-height: 60vh;
+  background-color: #ccc;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -188,11 +257,11 @@ nav button {
   justify-content: center;
   align-items: center;
   text-align: center;
-}
+} */
 
-.hero h3 {
+/* .hero h3 {
   padding: 2rem 4rem 5rem 4rem;
-}
+} */
 
 /* Dokumentasi */
 
