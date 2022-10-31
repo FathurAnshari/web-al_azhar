@@ -107,11 +107,22 @@ nav ul li {
   list-style: none;
   display: inline-block;
 }
+.active {
+  background: #4c6e97;
+  color: white;
+  padding: 0rem 3rem;
+  border-radius: 1rem;
+}
+
+.active:hover {
+  background: #4c6e97;
+}
+
 nav ul li a {
   display: block;
-  padding: 0 15px;
+  padding: 0 1.5rem;
   text-decoration: none;
-  line-height: 60px;
+  line-height: 6rem;
   font-size: 20px;
   color: #fff;
 }
