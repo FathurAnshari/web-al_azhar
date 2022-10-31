@@ -194,6 +194,66 @@ nav button {
   padding-left: 3rem;
 }
 
+/* PPBD */
+.ppdb h1 {
+  display: flex;
+  align-items: center;
+  min-height: 10vh;
+  width: 90%;
+  justify-content: center;
+  margin: 4rem auto 1rem auto;
+  text-align: center;
+}
+
+.ppdb-daftar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0.5rem 0 0.5rem 0;
+}
+
+.ppdb-daftar ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  width: 100%;
+  justify-content: center;
+  /* align-items: flex-start; */
+  padding: 0;
+  margin: 0;
+}
+
+.ppdb-daftar ul li {
+  display: flex;
+  /* align-items: ; */
+  justify-content: space-around;
+  margin: 4rem 0rem;
+}
+
+.ppdb-daftar h2 {
+  font-size: 3rem;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin-left: auto;
+  background: #4c6e97;
+  padding: 1rem 2rem;
+  border: none;
+  color: white;
+  font-size: 1.8rem;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out;
+  border-radius: 1rem;
+}
+
+/* .ppdb-daftar button {
+  margin-left: 4rem;
+} */
+
 /* PROFIL */
 .profil {
   display: flex;
@@ -236,30 +296,6 @@ nav button {
   width: 90%;
   justify-content: center;
   margin: 1rem auto 1rem auto;
-  text-align: center;
-}
-
-/* Locations */
-
-.lokasi {
-  min-height: 10vh;
-  padding: 1rem 3rem 3rem 3rem;
-  color: white;
-  display: flex;
-  width: 90%;
-  margin: auto auto 7rem auto;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-.alamat-text {
-  display: flex;
-  align-items: center;
-  min-height: 10vh;
-  width: 90%;
-  justify-content: center;
-  margin: 10rem auto 0 auto;
   text-align: center;
 }
 
