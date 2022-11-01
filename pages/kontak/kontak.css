@@ -238,68 +238,10 @@ nav button {
   display: flex;
   align-items: center;
   min-height: 10vh;
-  width: 90%;
+  width: 100%;
   justify-content: center;
   margin: 10rem auto 0 auto;
   text-align: center;
-}
-
-.hero {
-  min-height: 60vh;
-  background: url("/img/bacground-home.jpg"); /* linear-gradient(rgba(0, 0, 0, 0.7), transparent), */
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  color: white;
-  display: flex;
-  width: 90%;
-  margin: 5rem auto 2rem auto;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.hero h3 {
-  padding: 2rem 4rem 5rem 4rem;
-}
-
-/* Dokumentasi */
-
-.dokumentasi-wrapper {
-  min-height: 60vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 90%;
-  margin: 5rem auto 2rem auto;
-  overflow: hidden;
-}
-
-.dokumentasi-img {
-  max-height: 60vh;
-  min-width: 100%;
-  min-width: 100%;
-}
-
-.cell {
-  width: 33%;
-  height: 35rem;
-  margin: 0 1.5rem;
-  overflow: hidden;
-  border-radius: 0.8rem;
-}
-
-.cell img {
-  width: 100%;
-  height: 35rem;
-  object-fit: cover;
-}
-
-.flickity-prev-next-button {
-  width: 100px;
-  height: 100px;
-  background: transparent;
 }
 
 /* Locations */
@@ -310,11 +252,17 @@ nav button {
   color: white;
   display: flex;
   width: 90%;
-  margin: 5rem auto 7rem auto;
+  margin: auto auto 7rem auto;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+.lokasi h1 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
 }
 
 /* INTRO */
