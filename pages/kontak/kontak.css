@@ -238,12 +238,19 @@ nav button {
 
 .alamat-text {
   display: flex;
+  flex-direction: column;
   align-items: center;
   min-height: 10vh;
   width: 100%;
   justify-content: center;
   margin: 10rem auto 0 auto;
   text-align: center;
+}
+
+.alamat-text h6 {
+  margin-top: 1rem;
+  color: #4c6e97;
+  font-size: medium;
 }
 
 /* Locations */
