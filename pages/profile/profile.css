@@ -66,7 +66,7 @@ button:hover {
   min-height: 60vh;
   display: flex;
   width: 90%;
-  margin: 5rem auto 2rem auto;
+  margin: 2rem auto 2rem auto;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -281,6 +281,15 @@ nav button {
   color: #4c6e97;
   font-size: medium;
   margin-bottom: 3rem;
+}
+.text-wrapper h1 {
+  display: flex;
+  align-items: center;
+  min-height: 10vh;
+  width: 90%;
+  justify-content: center;
+  margin: 2rem auto auto auto;
+  text-align: center;
 }
 
 /* footer */
