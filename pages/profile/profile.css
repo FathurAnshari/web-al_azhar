@@ -286,7 +286,7 @@ nav button {
   display: flex;
   align-items: center;
   min-height: 10vh;
-  width: 90%;
+  width: 100%;
   justify-content: center;
   margin: 2rem auto auto auto;
   text-align: center;
