@@ -300,6 +300,9 @@ footer li {
 footer img {
   padding-right: 1rem;
 }
+footer i {
+  padding-right: 1rem;
+}
 
 .footer-wrapper {
   display: flex;
