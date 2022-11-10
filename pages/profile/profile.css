@@ -317,6 +317,10 @@ nav button {
   align-items: flex-end;
 }
 
+.cabang h3 {
+  font-size: 2.5rem;
+}
+
 /* footer */
 footer {
   min-height: 10vh;
