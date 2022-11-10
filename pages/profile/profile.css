@@ -296,6 +296,7 @@ nav button {
 
 .container {
   margin: 4rem auto;
+  padding: 0 5rem;
 }
 .cabang {
   display: flex;
@@ -303,7 +304,7 @@ nav button {
   align-items: center;
   margin-top: 4rem;
   padding: 2rem;
-  border-radius: 1rem;
+  border-radius: 3rem;
   justify-content: space-between;
   background: #131c27;
   color: #fff;
