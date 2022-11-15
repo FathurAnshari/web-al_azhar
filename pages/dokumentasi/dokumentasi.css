@@ -184,10 +184,10 @@ nav button {
   grid-auto-flow: dense;
 }
 
-.gallery-guru .box {
+/* .gallery-guru .box {
   background-color: #ccc;
   background-size: cover;
-}
+} */
 
 .box::after {
   content: "";
@@ -196,43 +196,95 @@ nav button {
 }
 
 .box:nth-child(1) {
-  background-image: url("/img/976309ed-1d64-4d60-934a-0c0f708188f1-removebg-preview.png");
+  width: auto;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("/img/Driver.png");
 }
 .box:nth-child(2) {
-  background-image: url("/img/614d7e91-fdb8-4442-80c7-86e084772cdf.jpg");
+  width: auto;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("/img/Hafalan-Hadist\ 01.png");
 }
 .box:nth-child(3) {
-  background-image: url("/img/landing-page.jpg");
+  width: auto;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("/img/hari-santri.png");
 }
 .box:nth-child(4) {
-  background-image: url("/img/contact-mountain.png");
+  width: auto;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("/img/KKM-SLTA.png");
 }
 .box:nth-child(5) {
-  background-image: url("/img/new-york-page.png");
+  width: auto;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("/img/Outing-Class-Bdg.png");
 }
 .box:nth-child(6) {
-  background-image: url("/img/pimpinan.jpg");
+  width: auto;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("/img/Outing-Class-Taman-Batu.png");
 }
 .box:nth-child(7) {
-  background-image: url("/img/pimpinan1.jpg");
+  width: auto;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("/img/PHBI.png");
 }
 .box:nth-child(8) {
-  background-image: url("/img/struktur.jpg");
+  width: auto;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("/img/PPDB-IKHWAN.png");
 }
 .box:nth-child(8) {
-  background-image: url("/img/contact-mountain.png");
+  width: auto;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("/img/Driver.png");
 }
 .box:nth-child(9) {
-  background-image: url("/img/contact-mountain.png");
+  width: auto;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("/img/Driver.png");
 }
 .box:nth-child(10) {
-  background-image: url("/img/contact-mountain.png");
+  width: auto;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("/img/Driver.png");
 }
 .box:nth-child(11) {
-  background-image: url("/img/contact-mountain.png");
+  width: auto;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("/img/Driver.png");
 }
 .box:nth-child(12) {
-  background-image: url("/img/contact-mountain.png");
+  width: auto;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("/img/Driver.png");
 }
 
 .gallery-siswa {
@@ -243,10 +295,10 @@ nav button {
   grid-auto-flow: dense;
 }
 
-.gallery-siswa .box-siswa {
+/* .gallery-siswa .box-siswa {
   background-color: #ccc;
   background-size: cover;
-}
+} */
 
 .box-siswa::after {
   content: "";
@@ -255,43 +307,95 @@ nav button {
 }
 
 .box-siswa:nth-child(1) {
-  background-image: url("/img/976309ed-1d64-4d60-934a-0c0f708188f1-removebg-preview.png");
+  width: auto;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("/img/Driver.png");
 }
 .box-siswa:nth-child(2) {
-  background-image: url("/img/614d7e91-fdb8-4442-80c7-86e084772cdf.jpg");
+  width: auto;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("/img/Hafalan-Hadist\ 01.png");
 }
 .box-siswa:nth-child(3) {
-  background-image: url("/img/landing-page.jpg");
+  width: auto;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("/img/hari-santri.png");
 }
 .box-siswa:nth-child(4) {
-  background-image: url("/img/contact-mountain.png");
+  width: auto;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("/img/KKM-SLTA.png");
 }
 .box-siswa:nth-child(5) {
-  background-image: url("/img/new-york-page.png");
+  width: auto;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("/img/Outing-Class-Bdg.png");
 }
 .box-siswa:nth-child(6) {
-  background-image: url("/img/pimpinan.jpg");
+  width: auto;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("/img/Outing-Class-Taman-Batu.png");
 }
 .box-siswa:nth-child(7) {
-  background-image: url("/img/pimpinan1.jpg");
+  width: auto;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("/img/PHBI.png");
 }
 .box-siswa:nth-child(8) {
-  background-image: url("/img/struktur.jpg");
+  width: auto;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("/img/PPDB-IKHWAN.png");
 }
 .box-siswa:nth-child(8) {
-  background-image: url("/img/contact-mountain.png");
+  width: auto;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("/img/Driver.png");
 }
 .box-siswa:nth-child(9) {
-  background-image: url("/img/contact-mountain.png");
+  width: auto;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("/img/Driver.png");
 }
 .box-siswa:nth-child(10) {
-  background-image: url("/img/contact-mountain.png");
+  width: auto;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("/img/Driver.png");
 }
 .box-siswa:nth-child(11) {
-  background-image: url("/img/contact-mountain.png");
+  width: auto;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("/img/Driver.png");
 }
 .box-siswa:nth-child(12) {
-  background-image: url("/img/contact-mountain.png");
+  width: auto;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("/img/Driver.png");
 }
 
 /* TITLE */
